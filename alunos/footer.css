@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    width: 100vw;
+    height: 140px; 
+    position: absolute;
+    background: var(--main-blue);
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    animation: footer-animation 500ms;
+    
+}
+
+footer .contatos{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer .contatos div {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+footer .copyright {
+    font-size: 24px;
+    font-style: italic;
+    
+}
+
+footer .social-medias{
+    display: flex;
+    gap: 32px;
+}
+
+footer .social-medias .social-media-icon i{
+    font-size: 1.5rem;
+}
+
+footer .social-medias .social-media-icon {
+    border-radius: 50%;
+    padding: 16px;
+    border: 2px solid #fff;
+}
+

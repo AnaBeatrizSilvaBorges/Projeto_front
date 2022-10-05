@@ -1,0 +1,100 @@
+main{
+    height: 1122px;
+    display: flex;
+}
+.label{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.label-container{
+    display: flex;
+    gap: 24px;
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.label-square{
+    width: 20px;
+    height: 20px;
+    display: block;
+    box-shadow: 0px 0px 8px 0 px #00000000;
+}
+
+.blue{
+    background-color: var(--main-blue);
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+.titulo{
+    font-size: 4rem;
+    color: var(--main-blue);
+    font-weight: 500;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.container-painel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.estudante-foto{
+    width: 100%;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.estudante-nome{
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px;
+    flex-wrap: wrap;
+    padding-top: 9px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 200px;
+    height: 300px;
+    padding: 12px;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+ 
+  
+
+

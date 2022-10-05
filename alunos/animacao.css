@@ -1,0 +1,19 @@
+@keyframes nav-animation {
+    0%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes footer-animation {
+    0%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
